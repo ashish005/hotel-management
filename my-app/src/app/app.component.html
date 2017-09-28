@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <ul>
+    <li *ngFor="let item of cities; let i=index" (click)="update(item)">{{item?.name}}</li>
+  </ul>
+  <hotel-details *ngIf="hotelData?.length>0" [id]="activeId" [data]="hotelData"></hotel-details>
+</div>
+

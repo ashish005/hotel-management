@@ -1,0 +1,11 @@
+<div>
+   <button (click)="addHotel()">Add Hotels</button>  <input type="text" >    Hotel : {{data?.length}}
+  <ul>
+    <li *ngFor="let item of data; let i=index">
+      {{item?.id}} - {{item?.name}} - {{item?.description}}
+    <button (click)="edit(item)">
+      Edit Me
+    </button>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,50 @@
+{
+  "hotel":[
+    {"id": 0,"name":"Delhi"},
+    {"id": 1,"name":"Haryana"},
+    {"id": 2,"name":"Gujrat"}
+  ],
+  "city": [
+    {
+      "id": 0,
+      "data": [
+        {"id": 1100,"name":"Hotel -1", "description":"description-1"},
+        {"id": 1101,"name":"Hotel -2", "description":"description-2"},
+        {"id": 1102,"name":"Hotel -3", "description":"description-3"},
+        {"id": 1103,"name":"Hotel -4", "description":"description-4"},
+        {"id": 1104,"name":"Hotel -5", "description":"description-5"},
+        {"id": 1105,"name":"Hotel -6", "description":"description-6"},
+        {"id": 1106,"name":"Hotel -7", "description":"description-7"}
+      ],
+      "hotelId":0,
+      "postId": 0
+    },
+    {
+      "id": 1,
+      "data": [
+        {"id": 2200,"name":"Hotel -1", "description":"description-1"},
+        {"id": 2201,"name":"Hotel -2", "description":"description-2"},
+        {"id": 2202,"name":"Hotel -3", "description":"description-3"},
+        {"id": 2203,"name":"Hotel -4", "description":"description-4"},
+        {"id": 2204,"name":"Hotel -5", "description":"description-5"},
+        {"id": 2205,"name":"Hotel -6", "description":"description-6"},
+        {"id": 2206,"name":"Hotel -7", "description":"description-7"},
+        {"id": 2207,"name":"Hotel -8", "description":"description-8"}
+      ],
+      "hotelId":1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "data": [
+        {"id": 3300,"name":"Hotel -1", "description":"description-1"},
+        {"id": 3301,"name":"Hotel -2", "description":"description-2"},
+        {"id": 3302,"name":"Hotel -3", "description":"description-3"},
+        {"id": 3303,"name":"Hotel -4", "description":"description-4"},
+        {"id": 3304,"name":"Hotel -5", "description":"description-5"}
+      ],
+      "hotelId":2,
+      "postId": 2
+    }
+  ]
+}
